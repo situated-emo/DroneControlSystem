@@ -37,3 +37,5 @@ foreach(Drone drone in drones)
         Console.WriteLine("Низкий заряд!");
     }
 }
+Drone drone1 = new Drone("ZOV-GOIDA");
+drone1.PrintInfo();
