@@ -49,3 +49,5 @@ for(int i = 0; i < 3; i++)
         }
     }
 }
+Drone drone1 = new Drone("ZOV-GOIDA");
+drone1.PrintInfo();
