@@ -37,3 +37,15 @@ foreach(Drone drone in drones)
         Console.WriteLine("Низкий заряд!");
     }
 }
+for(int i = 0; i < 3; i++)
+{
+    if (drones[i].BatteryLevel < 50)
+    {
+        Console.WriteLine("Насколько хочите подзарядить?");
+        int choice = int.Parse(Console.ReadLine());
+        if(choice != 0)
+        {
+            drones[i].ChargeBattery(choice);
+        }
+    }
+}
