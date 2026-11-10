@@ -45,6 +45,7 @@ public class Drone
             BatteryLevel = 100;
         }
         Console.WriteLine($"Заряд после подзарядки: {BatteryLevel}%");
+    }
     public Drone(string model) : this(model, 100)
     {
     }
